@@ -1,16 +1,9 @@
-import { Link } from 'next/link';
-import { Menu, MenuButton, MenuList, MenuItem, IconButton, Flex, Box, Spacer } from '@chakra-ui/react';
-import { FcMenu, FcHome, FcAbout } from 'react-icons/fc'
-import { BsSearch } from 'react-icons/bs';
-import { FiKey } from 'react-icons/fi';
+import { Box } from '@chakra-ui/layout';
 
-const Navbar = () => {
-    return (
-        <div>
-            <h1>Hello</h1>
-        </div>
-
-    );
-}
-
-export default Navbar;
+const Footer = () => (
+    <Box textAlign='center' p='5' color='gray.600' borderTop='1px' borderColor='gray.100'>
+      © 2021 Realtor, Inc.
+    </Box>
+  );
+  
+  export default Footer;
